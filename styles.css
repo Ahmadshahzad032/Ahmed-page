@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    margin-top: -16px; /* Adjust margin for better layout */
+}
+
+.banner img {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.banner .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 128, 0, 0.5); /* Greenish tint */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.list-group-item:hover {
+    background-color: #e2e6ea;
+}
